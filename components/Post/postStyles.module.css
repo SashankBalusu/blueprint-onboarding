@@ -1,14 +1,3 @@
-.main {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-
 .content {
   max-width: 350px;
   height: 100%;
@@ -18,6 +7,7 @@
 .headingInfo {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .descriptionText {
   font-size: 12px;
@@ -48,6 +38,7 @@ div.headingInfo p:last-of-type {
   display: flex;
   flex-direction: row;
   padding: 5px;
+  align-items: center;
 }
 .postInteractions > p {
   font-size: 11px;
@@ -58,28 +49,10 @@ div.headingInfo p:last-of-type {
 .postInteractions svg:last-of-type {
   margin-left: auto;
 }
+.postInteractions > svg {
+  width: 7%;
+  height: 7%;
+}
 .content > p {
   font-weight: 200;
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  background: #fafafa;
-  margin: -10px;
-  margin-bottom: 10px;
-}
-.header > h1:first-of-type {
-  color: #0078e8;
-}
-.header > h1 {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.comment {
-  padding-left: 30px;
 }
