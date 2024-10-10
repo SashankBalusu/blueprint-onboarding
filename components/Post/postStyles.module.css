@@ -1,0 +1,58 @@
+.content {
+  max-width: 350px;
+  height: 100%;
+  border: 1px solid black;
+  padding: 10px;
+}
+.headingInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.descriptionText {
+  font-size: 12px;
+  font-weight: 200;
+}
+div.headingInfo p {
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding: 5px;
+}
+
+div.headingInfo p:last-of-type {
+  margin-left: auto;
+  color: lightgray;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+}
+
+.postInteractions {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+}
+.postInteractions > p {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 1%;
+  margin-left: 1%;
+}
+.postInteractions svg:last-of-type {
+  margin-left: auto;
+}
+.postInteractions > svg {
+  width: 7%;
+  height: 7%;
+}
+.content > p {
+  font-weight: 200;
+}
